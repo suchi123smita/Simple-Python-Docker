@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/<your-username>/simple-python-docker.git'
+                git 'https://github.com/suchi123smita/simple-python-docker.git'
             }
         }
 
