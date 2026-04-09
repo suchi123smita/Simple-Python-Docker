@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/suchi123smita/simple-python-docker.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
